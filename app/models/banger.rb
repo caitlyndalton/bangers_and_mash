@@ -1,0 +1,2 @@
+class Banger < ApplicationRecord
+end

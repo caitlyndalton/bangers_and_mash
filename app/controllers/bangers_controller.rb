@@ -1,0 +1,2 @@
+class BangersController < ApplicationController
+end
