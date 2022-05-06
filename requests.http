@@ -1,0 +1,30 @@
+### Bangers Index
+GET http://localhost:3000/bangers.json
+
+### Bangers Create
+POST http://localhost:3000/bangers.json
+Content-Type: application/json
+
+{
+  "title": "New Title",
+  "album": "New Album",
+  "artist": "New Artist",
+  "year": "New Year"
+}
+
+### Bangers Show
+GET http://localhost:3000/bangers/5.json 
+
+### Bangers Update
+PATCH http://localhost:3000/bangers/5.json 
+Content-Type: application/json
+
+{
+  "title": "Would?",
+  "album": "Dirt",
+  "artist": "Alice In Chains",
+  "year": "1992"
+}
+
+### Bangers Destroy
+DELETE http://localhost:3000/bangers/6.json
